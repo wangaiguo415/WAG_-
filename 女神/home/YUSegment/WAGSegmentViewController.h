@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WAGSegmentViewController.h
 //  女神
 //
 //  Created by wangaiguo on 2018/10/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WAGSegmentViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

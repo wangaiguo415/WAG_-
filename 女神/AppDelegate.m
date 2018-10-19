@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "WAGHomeViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    WAGHomeViewController *_home;
+}
 
 @end
 
@@ -16,7 +19,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    _home = [WAGHomeViewController new];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:_home];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

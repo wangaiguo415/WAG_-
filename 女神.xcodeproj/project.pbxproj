@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DA3217980D30019A4A8 /* AppDelegate.m */; };
-		1E5F5DA7217980D30019A4A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DA6217980D30019A4A8 /* ViewController.m */; };
-		1E5F5DAA217980D30019A4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5F5DA8217980D30019A4A8 /* Main.storyboard */; };
 		1E5F5DAC217980D60019A4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5F5DAB217980D60019A4A8 /* Assets.xcassets */; };
-		1E5F5DAF217980D60019A4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5F5DAD217980D60019A4A8 /* LaunchScreen.storyboard */; };
 		1E5F5DB2217980D60019A4A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DB1217980D60019A4A8 /* main.m */; };
+		1E5F5DBE2179AF8C0019A4A8 /* WAGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DBD2179AF8C0019A4A8 /* WAGHomeViewController.m */; };
+		1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */; };
+		1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */; };
+		1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC82179C6850019A4A8 /* UIBaseViewController.m */; };
+		3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E5F5D9F217980D30019A4A8 /* 女神.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "女神.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5F5DA2217980D30019A4A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E5F5DA3217980D30019A4A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E5F5DA5217980D30019A4A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E5F5DA6217980D30019A4A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E5F5DA9217980D30019A4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E5F5DAB217980D60019A4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E5F5DAE217980D60019A4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E5F5DB0217980D60019A4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5F5DB1217980D60019A4A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5F5DBC2179AF8C0019A4A8 /* WAGHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGHomeViewController.h; sourceTree = "<group>"; };
+		1E5F5DBD2179AF8C0019A4A8 /* WAGHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGHomeViewController.m; sourceTree = "<group>"; };
+		1E5F5DBF2179BC810019A4A8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Instance.h"; sourceTree = "<group>"; };
+		1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Instance.m"; sourceTree = "<group>"; };
+		1E5F5DC42179C1E20019A4A8 /* WAGSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGSegmentViewController.h; sourceTree = "<group>"; };
+		1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGSegmentViewController.m; sourceTree = "<group>"; };
+		1E5F5DC72179C6850019A4A8 /* UIBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBaseViewController.h; sourceTree = "<group>"; };
+		1E5F5DC82179C6850019A4A8 /* UIBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBaseViewController.m; sourceTree = "<group>"; };
+		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
+		2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-女神.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.debug.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				1E5F5DA1217980D30019A4A8 /* 女神 */,
 				1E5F5DA0217980D30019A4A8 /* Products */,
+				F9706F4A7C4A01D75E26C530 /* Pods */,
+				54231B91BB6DBF3B8BB23725 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +71,79 @@
 		1E5F5DA1217980D30019A4A8 /* 女神 */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DBB2179AEFB0019A4A8 /* 3rd */,
+				1E5F5DBA2179AECF0019A4A8 /* utils */,
+				1E5F5DB92179AE9E0019A4A8 /* box */,
+				1E5F5DB82179AE910019A4A8 /* home */,
 				1E5F5DA2217980D30019A4A8 /* AppDelegate.h */,
 				1E5F5DA3217980D30019A4A8 /* AppDelegate.m */,
-				1E5F5DA5217980D30019A4A8 /* ViewController.h */,
-				1E5F5DA6217980D30019A4A8 /* ViewController.m */,
-				1E5F5DA8217980D30019A4A8 /* Main.storyboard */,
 				1E5F5DAB217980D60019A4A8 /* Assets.xcassets */,
-				1E5F5DAD217980D60019A4A8 /* LaunchScreen.storyboard */,
 				1E5F5DB0217980D60019A4A8 /* Info.plist */,
 				1E5F5DB1217980D60019A4A8 /* main.m */,
+				1E5F5DBF2179BC810019A4A8 /* Header.h */,
 			);
 			path = "女神";
+			sourceTree = "<group>";
+		};
+		1E5F5DB82179AE910019A4A8 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DC32179C0FD0019A4A8 /* YUSegment */,
+				1E5F5DBC2179AF8C0019A4A8 /* WAGHomeViewController.h */,
+				1E5F5DBD2179AF8C0019A4A8 /* WAGHomeViewController.m */,
+				1E5F5DC72179C6850019A4A8 /* UIBaseViewController.h */,
+				1E5F5DC82179C6850019A4A8 /* UIBaseViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1E5F5DB92179AE9E0019A4A8 /* box */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = box;
+			sourceTree = "<group>";
+		};
+		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */,
+				1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		1E5F5DBB2179AEFB0019A4A8 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		1E5F5DC32179C0FD0019A4A8 /* YUSegment */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DC42179C1E20019A4A8 /* WAGSegmentViewController.h */,
+				1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */,
+			);
+			path = YUSegment;
+			sourceTree = "<group>";
+		};
+		54231B91BB6DBF3B8BB23725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9706F4A7C4A01D75E26C530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */,
+				1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E5F5DB5217980D60019A4A8 /* Build configuration list for PBXNativeTarget "女神" */;
 			buildPhases = (
+				797940456249524331D5CAF8 /* [CP] Check Pods Manifest.lock */,
 				1E5F5D9B217980D30019A4A8 /* Sources */,
 				1E5F5D9C217980D30019A4A8 /* Frameworks */,
 				1E5F5D9D217980D30019A4A8 /* Resources */,
+				A426BD83CBA14B79F3DA483A /* [CP] Embed Pods Frameworks */,
+				8FA8097F081B14176941C3A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,45 +206,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5F5DAF217980D60019A4A8 /* LaunchScreen.storyboard in Resources */,
 				1E5F5DAC217980D60019A4A8 /* Assets.xcassets in Resources */,
-				1E5F5DAA217980D30019A4A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		797940456249524331D5CAF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-女神-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA8097F081B14176941C3A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-女神/Pods-女神-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A426BD83CBA14B79F3DA483A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-女神/Pods-女神-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E5F5D9B217980D30019A4A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5F5DA7217980D30019A4A8 /* ViewController.m in Sources */,
+				1E5F5DBE2179AF8C0019A4A8 /* WAGHomeViewController.m in Sources */,
 				1E5F5DB2217980D60019A4A8 /* main.m in Sources */,
+				1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */,
+				1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */,
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
+				1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1E5F5DA8217980D30019A4A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E5F5DA9217980D30019A4A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1E5F5DAD217980D60019A4A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E5F5DAE217980D60019A4A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1E5F5DB3217980D60019A4A8 /* Debug */ = {
@@ -283,10 +394,12 @@
 		};
 		1E5F5DB6217980D60019A4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZV4BAZA76;
+				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +413,12 @@
 		};
 		1E5F5DB7217980D60019A4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZV4BAZA76;
+				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
