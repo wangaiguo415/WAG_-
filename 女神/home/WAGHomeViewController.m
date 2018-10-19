@@ -8,6 +8,7 @@
 
 #import "WAGHomeViewController.h"
 #import "WAGSegmentViewController.h"
+#import "WAGShowMessageViewController.h"
 
 @interface WAGHomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -27,7 +28,7 @@
 }
 // ``` 各种三方操作常用数据源 ```
 - (void)configDataSource{
-    _dataSource = @[@"first::::", @"second::::", @"third::::", @"fouth::::"];
+    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::", @"fouth::::表白动图"];
 }
 - (void)configTable{
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
@@ -57,7 +58,7 @@
             [self pushTo:[WAGSegmentViewController new]];
             break;
         case 1:
-
+            [self pushTo:[WAGShowMessageViewController new]];
             break;
         default:
             break;

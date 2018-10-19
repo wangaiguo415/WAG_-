@@ -14,6 +14,10 @@
 		1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */; };
 		1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */; };
 		1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DC82179C6850019A4A8 /* UIBaseViewController.m */; };
+		1E5F5DCD2179CC730019A4A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCB2179CC730019A4A8 /* ViewController.m */; };
+		1E5F5DD02179CE960019A4A8 /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
+		1E5F5DD42179CECF0019A4A8 /* YCMRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DD22179CECF0019A4A8 /* YCMRotation.m */; };
+		1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */; };
 		3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +37,14 @@
 		1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGSegmentViewController.m; sourceTree = "<group>"; };
 		1E5F5DC72179C6850019A4A8 /* UIBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBaseViewController.h; sourceTree = "<group>"; };
 		1E5F5DC82179C6850019A4A8 /* UIBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBaseViewController.m; sourceTree = "<group>"; };
+		1E5F5DCB2179CC730019A4A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E5F5DCC2179CC730019A4A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E5F5DCE2179CE950019A4A8 /* HudUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudUtils.h; sourceTree = "<group>"; };
+		1E5F5DCF2179CE950019A4A8 /* HudUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudUtils.m; sourceTree = "<group>"; };
+		1E5F5DD22179CECF0019A4A8 /* YCMRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMRotation.m; sourceTree = "<group>"; };
+		1E5F5DD32179CECF0019A4A8 /* YCMRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMRotation.h; sourceTree = "<group>"; };
+		1E5F5DD62179DEE40019A4A8 /* WAGShowMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGShowMessageViewController.h; sourceTree = "<group>"; };
+		1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGShowMessageViewController.m; sourceTree = "<group>"; };
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-女神.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.debug.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 		1E5F5DA1217980D30019A4A8 /* 女神 */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DD12179CE9B0019A4A8 /* category */,
 				1E5F5DBB2179AEFB0019A4A8 /* 3rd */,
 				1E5F5DBA2179AECF0019A4A8 /* utils */,
 				1E5F5DB92179AE9E0019A4A8 /* box */,
@@ -88,6 +101,8 @@
 		1E5F5DB82179AE910019A4A8 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DD52179DEC10019A4A8 /* 提示信息 */,
+				1E5F5DCA2179CC1F0019A4A8 /* 表白动图圈圈 */,
 				1E5F5DC32179C0FD0019A4A8 /* YUSegment */,
 				1E5F5DBC2179AF8C0019A4A8 /* WAGHomeViewController.h */,
 				1E5F5DBD2179AF8C0019A4A8 /* WAGHomeViewController.m */,
@@ -100,6 +115,8 @@
 		1E5F5DB92179AE9E0019A4A8 /* box */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DD32179CECF0019A4A8 /* YCMRotation.h */,
+				1E5F5DD22179CECF0019A4A8 /* YCMRotation.m */,
 			);
 			path = box;
 			sourceTree = "<group>";
@@ -107,8 +124,8 @@
 		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */,
-				1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */,
+				1E5F5DCE2179CE950019A4A8 /* HudUtils.h */,
+				1E5F5DCF2179CE950019A4A8 /* HudUtils.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -127,6 +144,33 @@
 				1E5F5DC52179C1E20019A4A8 /* WAGSegmentViewController.m */,
 			);
 			path = YUSegment;
+			sourceTree = "<group>";
+		};
+		1E5F5DCA2179CC1F0019A4A8 /* 表白动图圈圈 */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DCC2179CC730019A4A8 /* ViewController.h */,
+				1E5F5DCB2179CC730019A4A8 /* ViewController.m */,
+			);
+			path = "表白动图圈圈";
+			sourceTree = "<group>";
+		};
+		1E5F5DD12179CE9B0019A4A8 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */,
+				1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		1E5F5DD52179DEC10019A4A8 /* 提示信息 */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DD62179DEE40019A4A8 /* WAGShowMessageViewController.h */,
+				1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */,
+			);
+			path = "提示信息";
 			sourceTree = "<group>";
 		};
 		54231B91BB6DBF3B8BB23725 /* Frameworks */ = {
@@ -268,12 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5F5DCD2179CC730019A4A8 /* ViewController.m in Sources */,
 				1E5F5DBE2179AF8C0019A4A8 /* WAGHomeViewController.m in Sources */,
 				1E5F5DB2217980D60019A4A8 /* main.m in Sources */,
+				1E5F5DD42179CECF0019A4A8 /* YCMRotation.m in Sources */,
 				1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */,
 				1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */,
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
 				1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */,
+				1E5F5DD02179CE960019A4A8 /* HudUtils.m in Sources */,
+				1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +449,12 @@
 				DEVELOPMENT_TEAM = 9ZV4BAZA76;
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2018.10.19.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,6 +470,7 @@
 				DEVELOPMENT_TEAM = 9ZV4BAZA76;
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
