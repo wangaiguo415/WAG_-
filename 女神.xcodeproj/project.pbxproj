@@ -18,6 +18,13 @@
 		1E5F5DD02179CE960019A4A8 /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
 		1E5F5DD42179CECF0019A4A8 /* YCMRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DD22179CECF0019A4A8 /* YCMRotation.m */; };
 		1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */; };
+		1E5F5DE5217D68DA0019A4A8 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DD9217D68D80019A4A8 /* NSDate+Format.m */; };
+		1E5F5DE6217D68DA0019A4A8 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DDD217D68D90019A4A8 /* NSString+MD5.m */; };
+		1E5F5DE7217D68DA0019A4A8 /* UIToolbar+Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DDE217D68D90019A4A8 /* UIToolbar+Builder.m */; };
+		1E5F5DE8217D68DA0019A4A8 /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DDF217D68D90019A4A8 /* NSString+PDRegex.m */; };
+		1E5F5DE9217D68DA0019A4A8 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */; };
+		1E5F5DEA217D68DA0019A4A8 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */; };
+		1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */; };
 		3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +52,21 @@
 		1E5F5DD32179CECF0019A4A8 /* YCMRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMRotation.h; sourceTree = "<group>"; };
 		1E5F5DD62179DEE40019A4A8 /* WAGShowMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGShowMessageViewController.h; sourceTree = "<group>"; };
 		1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGShowMessageViewController.m; sourceTree = "<group>"; };
+		1E5F5DD9217D68D80019A4A8 /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
+		1E5F5DDA217D68D80019A4A8 /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		1E5F5DDB217D68D90019A4A8 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		1E5F5DDC217D68D90019A4A8 /* UIToolbar+Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Builder.h"; sourceTree = "<group>"; };
+		1E5F5DDD217D68D90019A4A8 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		1E5F5DDE217D68D90019A4A8 /* UIToolbar+Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Builder.m"; sourceTree = "<group>"; };
+		1E5F5DDF217D68D90019A4A8 /* NSString+PDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDRegex.m"; sourceTree = "<group>"; };
+		1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		1E5F5DE1217D68D90019A4A8 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		1E5F5DE3217D68DA0019A4A8 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		1E5F5DE4217D68DA0019A4A8 /* NSString+PDRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDRegex.h"; sourceTree = "<group>"; };
+		1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMApplication.m; sourceTree = "<group>"; };
+		1E5F5DEC217D69D10019A4A8 /* YCMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMApplication.h; sourceTree = "<group>"; };
+		1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-女神.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.debug.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +146,9 @@
 		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */,
+				1E5F5DEC217D69D10019A4A8 /* YCMApplication.h */,
+				1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */,
 				1E5F5DCE2179CE950019A4A8 /* HudUtils.h */,
 				1E5F5DCF2179CE950019A4A8 /* HudUtils.m */,
 			);
@@ -158,6 +183,18 @@
 		1E5F5DD12179CE9B0019A4A8 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DDA217D68D80019A4A8 /* NSDate+Format.h */,
+				1E5F5DD9217D68D80019A4A8 /* NSDate+Format.m */,
+				1E5F5DE1217D68D90019A4A8 /* NSString+Base64.h */,
+				1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */,
+				1E5F5DDB217D68D90019A4A8 /* NSString+Common.h */,
+				1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */,
+				1E5F5DE3217D68DA0019A4A8 /* NSString+MD5.h */,
+				1E5F5DDD217D68D90019A4A8 /* NSString+MD5.m */,
+				1E5F5DE4217D68DA0019A4A8 /* NSString+PDRegex.h */,
+				1E5F5DDF217D68D90019A4A8 /* NSString+PDRegex.m */,
+				1E5F5DDC217D68D90019A4A8 /* UIToolbar+Builder.h */,
+				1E5F5DDE217D68D90019A4A8 /* UIToolbar+Builder.m */,
 				1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */,
 				1E5F5DC12179BDC30019A4A8 /* UIColor+Instance.m */,
 			);
@@ -314,14 +351,21 @@
 			files = (
 				1E5F5DCD2179CC730019A4A8 /* ViewController.m in Sources */,
 				1E5F5DBE2179AF8C0019A4A8 /* WAGHomeViewController.m in Sources */,
+				1E5F5DE7217D68DA0019A4A8 /* UIToolbar+Builder.m in Sources */,
 				1E5F5DB2217980D60019A4A8 /* main.m in Sources */,
 				1E5F5DD42179CECF0019A4A8 /* YCMRotation.m in Sources */,
 				1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */,
 				1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */,
+				1E5F5DE6217D68DA0019A4A8 /* NSString+MD5.m in Sources */,
+				1E5F5DEA217D68DA0019A4A8 /* NSString+Common.m in Sources */,
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
+				1E5F5DE9217D68DA0019A4A8 /* NSString+Base64.m in Sources */,
 				1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */,
 				1E5F5DD02179CE960019A4A8 /* HudUtils.m in Sources */,
+				1E5F5DE5217D68DA0019A4A8 /* NSDate+Format.m in Sources */,
+				1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */,
 				1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */,
+				1E5F5DE8217D68DA0019A4A8 /* NSString+PDRegex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
