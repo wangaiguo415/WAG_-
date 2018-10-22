@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>NSCameraUsageDescription</key>
+    <string>是否允许云茶萌使用你的相机</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>是否允许云茶萌访问你的媒体资料库</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

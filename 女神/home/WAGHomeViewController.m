@@ -9,6 +9,7 @@
 #import "WAGHomeViewController.h"
 #import "WAGSegmentViewController.h"
 #import "WAGShowMessageViewController.h"
+#import "WAGPhotoViewController.h"
 
 @interface WAGHomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -61,6 +62,9 @@
             break;
         case 1:
             [self pushTo:[WAGShowMessageViewController new]];
+            break;
+        case 2:
+            [self pushTo:[WAGPhotoViewController new]];
             break;
         default:
             break;
