@@ -25,6 +25,8 @@
 		1E5F5DE9217D68DA0019A4A8 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */; };
 		1E5F5DEA217D68DA0019A4A8 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */; };
 		1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */; };
+		1E5F5DF2217D7AC30019A4A8 /* WAGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */; };
+		1E5F5DF8217D7B4A0019A4A8 /* PXImagePickerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DF6217D7B4A0019A4A8 /* PXImagePickerHandler.m */; };
 		3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,10 @@
 		1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMApplication.m; sourceTree = "<group>"; };
 		1E5F5DEC217D69D10019A4A8 /* YCMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMApplication.h; sourceTree = "<group>"; };
 		1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
+		1E5F5DF0217D7AC30019A4A8 /* WAGPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGPhotoViewController.h; sourceTree = "<group>"; };
+		1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGPhotoViewController.m; sourceTree = "<group>"; };
+		1E5F5DF6217D7B4A0019A4A8 /* PXImagePickerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXImagePickerHandler.m; sourceTree = "<group>"; };
+		1E5F5DF7217D7B4A0019A4A8 /* PXImagePickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXImagePickerHandler.h; sourceTree = "<group>"; };
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-女神.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.debug.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 		1E5F5DB82179AE910019A4A8 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DEF217D7A3C0019A4A8 /* 照片拍照 */,
 				1E5F5DD52179DEC10019A4A8 /* 提示信息 */,
 				1E5F5DCA2179CC1F0019A4A8 /* 表白动图圈圈 */,
 				1E5F5DC32179C0FD0019A4A8 /* YUSegment */,
@@ -137,6 +144,8 @@
 		1E5F5DB92179AE9E0019A4A8 /* box */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F5DF7217D7B4A0019A4A8 /* PXImagePickerHandler.h */,
+				1E5F5DF6217D7B4A0019A4A8 /* PXImagePickerHandler.m */,
 				1E5F5DD32179CECF0019A4A8 /* YCMRotation.h */,
 				1E5F5DD22179CECF0019A4A8 /* YCMRotation.m */,
 			);
@@ -208,6 +217,15 @@
 				1E5F5DD72179DEE40019A4A8 /* WAGShowMessageViewController.m */,
 			);
 			path = "提示信息";
+			sourceTree = "<group>";
+		};
+		1E5F5DEF217D7A3C0019A4A8 /* 照片拍照 */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DF0217D7AC30019A4A8 /* WAGPhotoViewController.h */,
+				1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */,
+			);
+			path = "照片拍照";
 			sourceTree = "<group>";
 		};
 		54231B91BB6DBF3B8BB23725 /* Frameworks */ = {
@@ -361,11 +379,13 @@
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
 				1E5F5DE9217D68DA0019A4A8 /* NSString+Base64.m in Sources */,
 				1E5F5DC92179C6850019A4A8 /* UIBaseViewController.m in Sources */,
+				1E5F5DF8217D7B4A0019A4A8 /* PXImagePickerHandler.m in Sources */,
 				1E5F5DD02179CE960019A4A8 /* HudUtils.m in Sources */,
 				1E5F5DE5217D68DA0019A4A8 /* NSDate+Format.m in Sources */,
 				1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */,
 				1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */,
 				1E5F5DE8217D68DA0019A4A8 /* NSString+PDRegex.m in Sources */,
+				1E5F5DF2217D7AC30019A4A8 /* WAGPhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

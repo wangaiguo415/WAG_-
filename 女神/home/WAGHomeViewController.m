@@ -28,8 +28,9 @@
 }
 // ``` 各种三方操作常用数据源 ```
 - (void)configDataSource{
-    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::", @"fouth::::表白动图"];
+    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::照片选择", @"fouth::::表白动图"];
 }
+
 - (void)configTable{
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     _tableView.delegate = self;
@@ -37,7 +38,6 @@
     [self.view addSubview:_tableView];
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
-
 
 #pragma tableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

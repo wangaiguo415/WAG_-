@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #define MAIN_WINDOW    [[YCMApplication currentApplication] mainWindow]
 #define SCREEN_BOUNDS  [[YCMApplication currentApplication] screenBounds]
-#define SCREEN_WIDTH   [[YCMApplication currentApplication] screenWidth]
-#define SCREEN_HEIGHT  [[YCMApplication currentApplication] screenHeight]
+//#define SCREEN_WIDTH   [[YCMApplication currentApplication] screenWidth]
+//#define SCREEN_HEIGHT  [[YCMApplication currentApplication] screenHeight]
 #define APPDELEGATE    [[YCMApplication currentApplication] appDelegate]
 #define DIMENSION(dimen)   [[YCMApplication currentApplication] dimension:dimen]
 #define WEAK_SELF __weak typeof(self) me = self;
