@@ -1,0 +1,22 @@
+//
+//  CommonPrefixHeader.pch
+//  女神
+//
+//  Created by wangaiguo on 2018/10/26.
+//  Copyright © 2018 王爱国. All rights reserved.
+//
+
+#ifndef CommonPrefixHeader_pch
+#define CommonPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*
+ *  要是工程统一用的话  PCH  和  header file  都可以作为工程的根目录
+ *  但是一般的 pch 作为全局唯一的一个预编译文件，然后把相应的 header file 模块添加其中
+ *
+ */
+
+
+#endif /* CommonPrefixHeader_pch */

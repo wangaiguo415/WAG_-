@@ -12,8 +12,9 @@
 #define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
 #define NAV_TOP         ([[UIApplication sharedApplication] statusBarFrame].size.height + 44)
-#define IMG(img) [UIImage imageNamed:img]
+#define WEAK_SELF  __weak typeof(self) me = self;
 
 #import "UIColor+Instance.h"
+#import "CommonHeader.h"
 
 #endif /* Header_h */

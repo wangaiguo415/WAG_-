@@ -49,7 +49,6 @@
     _imageView.frame = CGRectMake(0, 0, 200, 200);
     _imageView.backgroundColor = UIGreenColor;
     _imageView.center = CGPointMake(SCREEN_WIDTH/2.0, SCREEN_HEIGHT/2.0);
-//    _imageView. = CGSizeMake(200, 200);
     [self.view addSubview:_imageView];
 }
 @end

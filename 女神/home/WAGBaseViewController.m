@@ -6,13 +6,13 @@
 //  Copyright © 2018年 王爱国. All rights reserved.
 //
 
-#import "UIBaseViewController.h"
+#import "WAGBaseViewController.h"
 
-@interface UIBaseViewController ()
+@interface WAGBaseViewController ()
 
 @end
 
-@implementation UIBaseViewController
+@implementation WAGBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

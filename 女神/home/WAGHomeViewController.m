@@ -10,6 +10,9 @@
 #import "WAGSegmentViewController.h"
 #import "WAGShowMessageViewController.h"
 #import "WAGPhotoViewController.h"
+#import "WAGTableHeaderController.h"
+#import "WAGDesignViewController.h"
+
 
 @interface WAGHomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -26,10 +29,12 @@
     [self setTitle:@"我的女神"];
     [self configDataSource];
     [self configTable];
+    
 }
+
 // ``` 各种三方操作常用数据源 ```
 - (void)configDataSource{
-    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::照片选择", @"fouth::::表白动图"];
+    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::照片选择", @"fouth::::表白动图", @"fifth: table_header", @"sixth: 设计模式简介", @"seventh: ", @"eighth:", @"ninth:",];
 }
 
 - (void)configTable{
@@ -54,7 +59,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [self didSelectRow:indexPath];
 }
-
+/*
+ *  点击操作
+ */
 - (void)didSelectRow:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:
@@ -65,6 +72,18 @@
             break;
         case 2:
             [self pushTo:[WAGPhotoViewController new]];
+            break;
+        case 4:
+            [self pushTo:[WAGTableHeaderController new]];
+            break;
+        case 5:
+            [self pushTo:[WAGDesignViewController new]];
+            break;
+        case 6:
+            break;
+        case 7:
+            break;
+        case 8:
             break;
         default:
             break;
