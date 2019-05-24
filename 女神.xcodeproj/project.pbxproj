@@ -40,6 +40,7 @@
 		1EC888ED217ED68700651F51 /* WAGTableHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888EC217ED68700651F51 /* WAGTableHeaderController.m */; };
 		1ECC647D217EFB0C00867BCF /* WAGTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC6479217EFB0B00867BCF /* WAGTableViewAdapter.m */; };
 		1ECC647E217EFB0C00867BCF /* UITableView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC647C217EFB0C00867BCF /* UITableView+Adapter.m */; };
+		1EF233142297935A007380EA /* WAGAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF233132297935A007380EA /* WAGAlgorithm.m */; };
 		3A845B81846949FD903D68A4 /* libPods-女神.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +116,8 @@
 		1ECC647A217EFB0B00867BCF /* UITableView+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Adapter.h"; sourceTree = "<group>"; };
 		1ECC647B217EFB0B00867BCF /* WAGTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAGTableViewAdapter.h; sourceTree = "<group>"; };
 		1ECC647C217EFB0C00867BCF /* UITableView+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Adapter.m"; sourceTree = "<group>"; };
+		1EF233122297935A007380EA /* WAGAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGAlgorithm.h; sourceTree = "<group>"; };
+		1EF233132297935A007380EA /* WAGAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGAlgorithm.m; sourceTree = "<group>"; };
 		2A4EF4754F00CBA9374E0F06 /* libPods-女神.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-女神.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FB87B96A2AD3008D837884 /* Pods-女神.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.debug.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,6 +247,7 @@
 		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1EF23311229792AA007380EA /* 算法 */,
 				1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */,
 				1E5F5DEC217D69D10019A4A8 /* YCMApplication.h */,
 				1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */,
@@ -284,20 +288,13 @@
 		1E5F5DD12179CE9B0019A4A8 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1EF23310229791E3007380EA /* NSString */,
 				1E50BFC121830F09005F26E5 /* UIView */,
 				1E50BFBD21830EA2005F26E5 /* NSBundle */,
 				1E50BFBC21830E55005F26E5 /* UIImage */,
 				1ECC6478217EFAFD00867BCF /* tableview */,
 				1E5F5DDA217D68D80019A4A8 /* NSDate+Format.h */,
 				1E5F5DD9217D68D80019A4A8 /* NSDate+Format.m */,
-				1E5F5DE1217D68D90019A4A8 /* NSString+Base64.h */,
-				1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */,
-				1E5F5DDB217D68D90019A4A8 /* NSString+Common.h */,
-				1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */,
-				1E5F5DE3217D68DA0019A4A8 /* NSString+MD5.h */,
-				1E5F5DDD217D68D90019A4A8 /* NSString+MD5.m */,
-				1E5F5DE4217D68DA0019A4A8 /* NSString+PDRegex.h */,
-				1E5F5DDF217D68D90019A4A8 /* NSString+PDRegex.m */,
 				1E5F5DDC217D68D90019A4A8 /* UIToolbar+Builder.h */,
 				1E5F5DDE217D68D90019A4A8 /* UIToolbar+Builder.m */,
 				1E5F5DC02179BDC30019A4A8 /* UIColor+Instance.h */,
@@ -351,6 +348,30 @@
 				1ECC647C217EFB0C00867BCF /* UITableView+Adapter.m */,
 			);
 			path = tableview;
+			sourceTree = "<group>";
+		};
+		1EF23310229791E3007380EA /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F5DE1217D68D90019A4A8 /* NSString+Base64.h */,
+				1E5F5DE0217D68D90019A4A8 /* NSString+Base64.m */,
+				1E5F5DDB217D68D90019A4A8 /* NSString+Common.h */,
+				1E5F5DE2217D68D90019A4A8 /* NSString+Common.m */,
+				1E5F5DE3217D68DA0019A4A8 /* NSString+MD5.h */,
+				1E5F5DDD217D68D90019A4A8 /* NSString+MD5.m */,
+				1E5F5DE4217D68DA0019A4A8 /* NSString+PDRegex.h */,
+				1E5F5DDF217D68D90019A4A8 /* NSString+PDRegex.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		1EF23311229792AA007380EA /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				1EF233122297935A007380EA /* WAGAlgorithm.h */,
+				1EF233132297935A007380EA /* WAGAlgorithm.m */,
+			);
+			path = "算法";
 			sourceTree = "<group>";
 		};
 		54231B91BB6DBF3B8BB23725 /* Frameworks */ = {
@@ -508,6 +529,7 @@
 				1ECC647E217EFB0C00867BCF /* UITableView+Adapter.m in Sources */,
 				1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */,
 				1E5F5DE6217D68DA0019A4A8 /* NSString+MD5.m in Sources */,
+				1EF233142297935A007380EA /* WAGAlgorithm.m in Sources */,
 				1E5F5DEA217D68DA0019A4A8 /* NSString+Common.m in Sources */,
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
 				1E015116217EF569009EB28F /* ParallaxHeaderView.m in Sources */,

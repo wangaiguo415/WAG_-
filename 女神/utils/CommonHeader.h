@@ -27,7 +27,7 @@ NSUserDefaults *def =[NSUserDefaults standardUserDefaults];\
 
 
 /*
- *  常用的一些操作方法设置
+ *  常用的一些操作方法缩写设置
  */
 #define IMG(img) [UIImage imageNamed:img]
 #define FONT_BASE(size) [UIFont systemFontOfSize:size]
