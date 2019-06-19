@@ -9,6 +9,8 @@
 #import "WAGControlsViewController.h"
 #import "UILabel+Parameter.h"
 #import "UIButton+Parameter.h"
+#import "UITextField+Parameter.h"
+#import <IQKeyboardManager.h>
 
 @interface WAGControlsViewController ()
 
@@ -23,6 +25,7 @@
 
     [self lable];
     [self button];
+    [self textField];
 }
 
 - (void)lable{
@@ -39,6 +42,18 @@
         .wag_frame(CGRectMake(0, 250, SCREEN_WIDTH, 30));
     }];
     [self.view addSubview:btn];
+}
 
+- (void)textField{
+    UITextField *textField = [UITextField createField:^(UITextField * _Nonnull textField) {
+        textField.wag_placeHolder(@"请输入......")
+        .wag_textColor([UIColor greenColor])
+        .wag_font([UIFont systemFontOfSize:20])
+        .keyType(UIReturnKeyDone)
+        .wag_frame(CGRectMake(0, SCREEN_HEIGHT - 88, SCREEN_WIDTH, 40))
+        .wag_backgroudColor([UIColor cyanColor])
+        .alignment(NSTextAlignmentCenter);
+    }];
+    [self.view addSubview:textField];
 }
 @end

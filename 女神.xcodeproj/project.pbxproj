@@ -42,6 +42,7 @@
 		1E83ABDE22BA18900033AB28 /* UILabel+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABDD22BA18900033AB28 /* UILabel+Parameter.m */; };
 		1E83ABE222BA1B820033AB28 /* WAGControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */; };
 		1E83ABE722BA241B0033AB28 /* UIButton+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */; };
+		1E83ABEB22BA3E650033AB28 /* UITextField+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABEA22BA3E650033AB28 /* UITextField+Parameter.m */; };
 		1EA011252182F1D400975E2B /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
 		1EA8ACC221D375E80093CED3 /* WAGDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */; };
 		1EC888EA217ECCDD00651F51 /* WAGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */; };
@@ -128,6 +129,8 @@
 		1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGControlsViewController.m; sourceTree = "<group>"; };
 		1E83ABE522BA241B0033AB28 /* UIButton+Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Parameter.h"; sourceTree = "<group>"; };
 		1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Parameter.m"; sourceTree = "<group>"; };
+		1E83ABE922BA3E650033AB28 /* UITextField+Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Parameter.h"; sourceTree = "<group>"; };
+		1E83ABEA22BA3E650033AB28 /* UITextField+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Parameter.m"; sourceTree = "<group>"; };
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		1EA8ACC021D375E80093CED3 /* WAGDesignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGDesignViewController.h; sourceTree = "<group>"; };
 		1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGDesignViewController.m; sourceTree = "<group>"; };
@@ -330,6 +333,7 @@
 		1E5F5DD12179CE9B0019A4A8 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1E83ABE822BA3E4B0033AB28 /* New Group */,
 				1E83ABE422BA23F80033AB28 /* UIButton */,
 				1E83ABDB22BA17BD0033AB28 /* UILabel */,
 				1EF23310229791E3007380EA /* NSString */,
@@ -397,6 +401,15 @@
 				1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1E83ABE822BA3E4B0033AB28 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1E83ABE922BA3E650033AB28 /* UITextField+Parameter.h */,
+				1E83ABEA22BA3E650033AB28 /* UITextField+Parameter.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		1EA8ACBF21D375370093CED3 /* 设计模式 */ = {
@@ -561,9 +574,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-女神/Pods-女神-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -593,6 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5F5DCD2179CC730019A4A8 /* ViewController.m in Sources */,
+				1E83ABEB22BA3E650033AB28 /* UITextField+Parameter.m in Sources */,
 				1EA011252182F1D400975E2B /* HudUtils.m in Sources */,
 				1E5F5DBE2179AF8C0019A4A8 /* WAGHomeViewController.m in Sources */,
 				1E5F5DE7217D68DA0019A4A8 /* UIToolbar+Builder.m in Sources */,
@@ -760,10 +777,7 @@
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2018.10.19.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -781,10 +795,7 @@
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2018.10.19.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

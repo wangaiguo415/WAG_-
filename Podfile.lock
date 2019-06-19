@@ -1,15 +1,18 @@
 PODS:
+  - IQKeyboardManager (6.1.1)
   - MBProgressHUD (0.9.2)
   - YUSegment (1.0.1)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - MBProgressHUD (~> 0.9.1)
   - YUSegment
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   YUSegment: 6e527a2e4ad60404ef67bd766b4dcf6d59419c9c
 
-PODFILE CHECKSUM: c38e58192019c0ef2228e4da1d61b2b9f0f95a30
+PODFILE CHECKSUM: 73a365ac9dd1b64bc78d3371f5deb55fe333d8ed
 
 COCOAPODS: 1.4.0

@@ -5,5 +5,6 @@ inhibit_all_warnings!
 target '女神' do
     pod 'YUSegment'
     pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'IQKeyboardManager' #
 
 end
