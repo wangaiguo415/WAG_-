@@ -16,5 +16,6 @@
 
 #import "UIColor+Instance.h"
 #import "CommonHeader.h"
+#import "UIView+Frame.h"
 
 #endif /* Header_h */

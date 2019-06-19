@@ -12,6 +12,8 @@
 #import "WAGPhotoViewController.h"
 #import "WAGTableHeaderController.h"
 #import "WAGDesignViewController.h"
+#import "WAGImageViewController.h"
+#import "WAGControlsViewController.h"
 
 
 @interface WAGHomeViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -34,7 +36,7 @@
 
 // ``` 各种三方操作常用数据源 ```
 - (void)configDataSource{
-    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::照片选择", @"fouth::::表白动图", @"fifth: table_header", @"sixth: 设计模式简介", @"seventh: ", @"eighth:", @"ninth:",];
+    _dataSource = @[@"first::::有问题的segment", @"second::::加载动画", @"third::::照片选择", @"fouth::::表白动图", @"fifth: table_header", @"sixth: 设计模式简介", @"seventh:图片镜像处理", @"控件--链式设置", @"ninth:",];
 }
 
 - (void)configTable{
@@ -80,8 +82,10 @@
             [self pushTo:[WAGDesignViewController new]];
             break;
         case 6:
+            [self pushTo:[WAGImageViewController new]];
             break;
         case 7:
+            [self pushTo:[WAGControlsViewController new]];
             break;
         case 8:
             break;

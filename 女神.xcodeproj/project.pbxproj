@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1E015116217EF569009EB28F /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E015113217EF569009EB28F /* ParallaxHeaderView.m */; };
 		1E015117217EF569009EB28F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E015114217EF569009EB28F /* UIImage+ImageEffects.m */; };
+		1E3E9F3822ADEF6B00312B7E /* UIImage+WAGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E9F3722ADEF6B00312B7E /* UIImage+WAGImage.m */; };
+		1E3E9F3D22ADF7CE00312B7E /* WAGImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E9F3C22ADF7CE00312B7E /* WAGImageViewController.m */; };
+		1E3E9F4022ADF7F100312B7E /* WAGImageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E9F3F22ADF7F100312B7E /* WAGImageAdapter.m */; };
+		1E3E9F4422ADF82800312B7E /* WAGImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E9F4222ADF82800312B7E /* WAGImageTableViewCell.m */; };
+		1E3E9F4522ADF82800312B7E /* WAGImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E9F4322ADF82800312B7E /* WAGImageTableViewCell.xib */; };
 		1E50BF9A218018A0005F26E5 /* WAGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50BF99218018A0005F26E5 /* WAGTableViewCell.m */; };
 		1E50BFB82182FAA9005F26E5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50BFB62182FAA9005F26E5 /* UIImage+Extension.m */; };
 		1E50BFBB21830E49005F26E5 /* UIImage+DYExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50BFB921830E49005F26E5 /* UIImage+DYExtenstion.m */; };
@@ -34,6 +39,9 @@
 		1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DEB217D69D10019A4A8 /* YCMApplication.m */; };
 		1E5F5DF2217D7AC30019A4A8 /* WAGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */; };
 		1E5F5DF8217D7B4A0019A4A8 /* PXImagePickerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DF6217D7B4A0019A4A8 /* PXImagePickerHandler.m */; };
+		1E83ABDE22BA18900033AB28 /* UILabel+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABDD22BA18900033AB28 /* UILabel+Parameter.m */; };
+		1E83ABE222BA1B820033AB28 /* WAGControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */; };
+		1E83ABE722BA241B0033AB28 /* UIButton+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */; };
 		1EA011252182F1D400975E2B /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
 		1EA8ACC221D375E80093CED3 /* WAGDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */; };
 		1EC888EA217ECCDD00651F51 /* WAGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */; };
@@ -49,6 +57,15 @@
 		1E015113217EF569009EB28F /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
 		1E015114217EF569009EB28F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		1E015115217EF569009EB28F /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		1E3E9F3622ADEF6B00312B7E /* UIImage+WAGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WAGImage.h"; sourceTree = "<group>"; };
+		1E3E9F3722ADEF6B00312B7E /* UIImage+WAGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WAGImage.m"; sourceTree = "<group>"; };
+		1E3E9F3B22ADF7CE00312B7E /* WAGImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGImageViewController.h; sourceTree = "<group>"; };
+		1E3E9F3C22ADF7CE00312B7E /* WAGImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGImageViewController.m; sourceTree = "<group>"; };
+		1E3E9F3E22ADF7F100312B7E /* WAGImageAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGImageAdapter.h; sourceTree = "<group>"; };
+		1E3E9F3F22ADF7F100312B7E /* WAGImageAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGImageAdapter.m; sourceTree = "<group>"; };
+		1E3E9F4122ADF82800312B7E /* WAGImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGImageTableViewCell.h; sourceTree = "<group>"; };
+		1E3E9F4222ADF82800312B7E /* WAGImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGImageTableViewCell.m; sourceTree = "<group>"; };
+		1E3E9F4322ADF82800312B7E /* WAGImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAGImageTableViewCell.xib; sourceTree = "<group>"; };
 		1E50BF98218018A0005F26E5 /* WAGTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGTableViewCell.h; sourceTree = "<group>"; };
 		1E50BF99218018A0005F26E5 /* WAGTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGTableViewCell.m; sourceTree = "<group>"; };
 		1E50BFB42182F092005F26E5 /* CommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
@@ -105,6 +122,12 @@
 		1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGPhotoViewController.m; sourceTree = "<group>"; };
 		1E5F5DF6217D7B4A0019A4A8 /* PXImagePickerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXImagePickerHandler.m; sourceTree = "<group>"; };
 		1E5F5DF7217D7B4A0019A4A8 /* PXImagePickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXImagePickerHandler.h; sourceTree = "<group>"; };
+		1E83ABDC22BA18900033AB28 /* UILabel+Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Parameter.h"; sourceTree = "<group>"; };
+		1E83ABDD22BA18900033AB28 /* UILabel+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Parameter.m"; sourceTree = "<group>"; };
+		1E83ABE022BA1B820033AB28 /* WAGControlsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGControlsViewController.h; sourceTree = "<group>"; };
+		1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGControlsViewController.m; sourceTree = "<group>"; };
+		1E83ABE522BA241B0033AB28 /* UIButton+Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Parameter.h"; sourceTree = "<group>"; };
+		1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Parameter.m"; sourceTree = "<group>"; };
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		1EA8ACC021D375E80093CED3 /* WAGDesignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGDesignViewController.h; sourceTree = "<group>"; };
 		1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGDesignViewController.m; sourceTree = "<group>"; };
@@ -145,10 +168,26 @@
 			path = ParallaxHeaderView;
 			sourceTree = "<group>";
 		};
+		1E3E9F3A22ADF77900312B7E /* 图片处理 */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E9F3B22ADF7CE00312B7E /* WAGImageViewController.h */,
+				1E3E9F3C22ADF7CE00312B7E /* WAGImageViewController.m */,
+				1E3E9F3E22ADF7F100312B7E /* WAGImageAdapter.h */,
+				1E3E9F3F22ADF7F100312B7E /* WAGImageAdapter.m */,
+				1E3E9F4122ADF82800312B7E /* WAGImageTableViewCell.h */,
+				1E3E9F4222ADF82800312B7E /* WAGImageTableViewCell.m */,
+				1E3E9F4322ADF82800312B7E /* WAGImageTableViewCell.xib */,
+			);
+			path = "图片处理";
+			sourceTree = "<group>";
+		};
 		1E50BFBC21830E55005F26E5 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
 				1E50BFBA21830E49005F26E5 /* UIImage+DYExtenstion.h */,
+				1E3E9F3622ADEF6B00312B7E /* UIImage+WAGImage.h */,
+				1E3E9F3722ADEF6B00312B7E /* UIImage+WAGImage.m */,
 				1E50BFB921830E49005F26E5 /* UIImage+DYExtenstion.m */,
 				1E50BFB72182FAA9005F26E5 /* UIImage+Extension.h */,
 				1E50BFB62182FAA9005F26E5 /* UIImage+Extension.m */,
@@ -213,6 +252,9 @@
 		1E5F5DB82179AE910019A4A8 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				1E83ABE322BA216C0033AB28 /* UIButton */,
+				1E83ABDF22BA1B3A0033AB28 /* 标签label */,
+				1E3E9F3A22ADF77900312B7E /* 图片处理 */,
 				1EA8ACBF21D375370093CED3 /* 设计模式 */,
 				1EC888E7217EC7BF00651F51 /* tableHeader */,
 				1E5F5DEF217D7A3C0019A4A8 /* 照片拍照 */,
@@ -288,6 +330,8 @@
 		1E5F5DD12179CE9B0019A4A8 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1E83ABE422BA23F80033AB28 /* UIButton */,
+				1E83ABDB22BA17BD0033AB28 /* UILabel */,
 				1EF23310229791E3007380EA /* NSString */,
 				1E50BFC121830F09005F26E5 /* UIView */,
 				1E50BFBD21830EA2005F26E5 /* NSBundle */,
@@ -319,6 +363,40 @@
 				1E5F5DF1217D7AC30019A4A8 /* WAGPhotoViewController.m */,
 			);
 			path = "照片拍照";
+			sourceTree = "<group>";
+		};
+		1E83ABDB22BA17BD0033AB28 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1E83ABDC22BA18900033AB28 /* UILabel+Parameter.h */,
+				1E83ABDD22BA18900033AB28 /* UILabel+Parameter.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		1E83ABDF22BA1B3A0033AB28 /* 标签label */ = {
+			isa = PBXGroup;
+			children = (
+				1E83ABE022BA1B820033AB28 /* WAGControlsViewController.h */,
+				1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */,
+			);
+			path = "标签label";
+			sourceTree = "<group>";
+		};
+		1E83ABE322BA216C0033AB28 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1E83ABE422BA23F80033AB28 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1E83ABE522BA241B0033AB28 /* UIButton+Parameter.h */,
+				1E83ABE622BA241B0033AB28 /* UIButton+Parameter.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		1EA8ACBF21D375370093CED3 /* 设计模式 */ = {
@@ -452,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5F5DAC217980D60019A4A8 /* Assets.xcassets in Resources */,
+				1E3E9F4522ADF82800312B7E /* WAGImageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +603,16 @@
 				1E5F5DD42179CECF0019A4A8 /* YCMRotation.m in Sources */,
 				1E50BFC021830EBD005F26E5 /* NSBundle+Extensions.m in Sources */,
 				1EC888EA217ECCDD00651F51 /* WAGTableViewController.m in Sources */,
+				1E3E9F4422ADF82800312B7E /* WAGImageTableViewCell.m in Sources */,
 				1E5F5DC22179BDC30019A4A8 /* UIColor+Instance.m in Sources */,
+				1E83ABE722BA241B0033AB28 /* UIButton+Parameter.m in Sources */,
 				1EA8ACC221D375E80093CED3 /* WAGDesignViewController.m in Sources */,
 				1ECC647E217EFB0C00867BCF /* UITableView+Adapter.m in Sources */,
 				1E5F5DC62179C1E20019A4A8 /* WAGSegmentViewController.m in Sources */,
+				1E3E9F4022ADF7F100312B7E /* WAGImageAdapter.m in Sources */,
 				1E5F5DE6217D68DA0019A4A8 /* NSString+MD5.m in Sources */,
 				1EF233142297935A007380EA /* WAGAlgorithm.m in Sources */,
+				1E83ABE222BA1B820033AB28 /* WAGControlsViewController.m in Sources */,
 				1E5F5DEA217D68DA0019A4A8 /* NSString+Common.m in Sources */,
 				1E5F5DA4217980D30019A4A8 /* AppDelegate.m in Sources */,
 				1E015116217EF569009EB28F /* ParallaxHeaderView.m in Sources */,
@@ -542,9 +625,12 @@
 				1E5F5DE5217D68DA0019A4A8 /* NSDate+Format.m in Sources */,
 				1ECC647D217EFB0C00867BCF /* WAGTableViewAdapter.m in Sources */,
 				1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */,
+				1E3E9F3822ADEF6B00312B7E /* UIImage+WAGImage.m in Sources */,
 				1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */,
 				1E5F5DE8217D68DA0019A4A8 /* NSString+PDRegex.m in Sources */,
+				1E83ABDE22BA18900033AB28 /* UILabel+Parameter.m in Sources */,
 				1E5F5DF2217D7AC30019A4A8 /* WAGPhotoViewController.m in Sources */,
+				1E3E9F3D22ADF7CE00312B7E /* WAGImageViewController.m in Sources */,
 				1E50BFBB21830E49005F26E5 /* UIImage+DYExtenstion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -656,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
