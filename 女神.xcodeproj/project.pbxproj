@@ -255,8 +255,7 @@
 		1E5F5DB82179AE910019A4A8 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				1E83ABE322BA216C0033AB28 /* UIButton */,
-				1E83ABDF22BA1B3A0033AB28 /* 标签label */,
+				1E83ABDF22BA1B3A0033AB28 /* 部分通用控件 */,
 				1E3E9F3A22ADF77900312B7E /* 图片处理 */,
 				1EA8ACBF21D375370093CED3 /* 设计模式 */,
 				1EC888E7217EC7BF00651F51 /* tableHeader */,
@@ -333,7 +332,7 @@
 		1E5F5DD12179CE9B0019A4A8 /* category */ = {
 			isa = PBXGroup;
 			children = (
-				1E83ABE822BA3E4B0033AB28 /* New Group */,
+				1E83ABE822BA3E4B0033AB28 /* UITextField */,
 				1E83ABE422BA23F80033AB28 /* UIButton */,
 				1E83ABDB22BA17BD0033AB28 /* UILabel */,
 				1EF23310229791E3007380EA /* NSString */,
@@ -378,20 +377,13 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
-		1E83ABDF22BA1B3A0033AB28 /* 标签label */ = {
+		1E83ABDF22BA1B3A0033AB28 /* 部分通用控件 */ = {
 			isa = PBXGroup;
 			children = (
 				1E83ABE022BA1B820033AB28 /* WAGControlsViewController.h */,
 				1E83ABE122BA1B820033AB28 /* WAGControlsViewController.m */,
 			);
-			path = "标签label";
-			sourceTree = "<group>";
-		};
-		1E83ABE322BA216C0033AB28 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIButton;
+			path = "部分通用控件";
 			sourceTree = "<group>";
 		};
 		1E83ABE422BA23F80033AB28 /* UIButton */ = {
@@ -403,13 +395,13 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		1E83ABE822BA3E4B0033AB28 /* New Group */ = {
+		1E83ABE822BA3E4B0033AB28 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
 				1E83ABE922BA3E650033AB28 /* UITextField+Parameter.h */,
 				1E83ABEA22BA3E650033AB28 /* UITextField+Parameter.m */,
 			);
-			path = "New Group";
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		1EA8ACBF21D375370093CED3 /* 设计模式 */ = {
@@ -777,7 +769,10 @@
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2018.10.19.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -795,7 +790,10 @@
 				GCC_PREFIX_HEADER = "女神/Header.h";
 				INFOPLIST_FILE = "女神/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2018.10.19.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
