@@ -26,6 +26,12 @@
     [self lable];
     [self button];
     [self textField];
+
+    NSObject *wag1 = [NSObject alloc];
+    NSObject *wag2 = [NSObject init];
+    NSLog(@"%p --- %p", wag1, wag2);
+
+    UIStackView
 }
 
 - (void)lable{

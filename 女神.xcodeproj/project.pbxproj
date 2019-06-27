@@ -45,6 +45,7 @@
 		1E83ABEB22BA3E650033AB28 /* UITextField+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E83ABEA22BA3E650033AB28 /* UITextField+Parameter.m */; };
 		1EA011252182F1D400975E2B /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
 		1EA8ACC221D375E80093CED3 /* WAGDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */; };
+		1EB50D8E22C36669005E40F1 /* WAGSingletonsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */; };
 		1EC888EA217ECCDD00651F51 /* WAGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */; };
 		1EC888ED217ED68700651F51 /* WAGTableHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888EC217ED68700651F51 /* WAGTableHeaderController.m */; };
 		1ECC647D217EFB0C00867BCF /* WAGTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC6479217EFB0B00867BCF /* WAGTableViewAdapter.m */; };
@@ -134,6 +135,8 @@
 		1E9FD18FEFF6A611E7F660FF /* Pods-女神.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-女神.release.xcconfig"; path = "Pods/Target Support Files/Pods-女神/Pods-女神.release.xcconfig"; sourceTree = "<group>"; };
 		1EA8ACC021D375E80093CED3 /* WAGDesignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGDesignViewController.h; sourceTree = "<group>"; };
 		1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGDesignViewController.m; sourceTree = "<group>"; };
+		1EB50D8C22C36669005E40F1 /* WAGSingletonsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGSingletonsObject.h; sourceTree = "<group>"; };
+		1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGSingletonsObject.m; sourceTree = "<group>"; };
 		1EC888E8217ECCDD00651F51 /* WAGTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGTableViewController.h; sourceTree = "<group>"; };
 		1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGTableViewController.m; sourceTree = "<group>"; };
 		1EC888EB217ED68700651F51 /* WAGTableHeaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGTableHeaderController.h; sourceTree = "<group>"; };
@@ -291,6 +294,7 @@
 		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1EB50D8B22C36630005E40F1 /* Singletons */,
 				1EF23311229792AA007380EA /* 算法 */,
 				1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */,
 				1E5F5DEC217D69D10019A4A8 /* YCMApplication.h */,
@@ -411,6 +415,15 @@
 				1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */,
 			);
 			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		1EB50D8B22C36630005E40F1 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				1EB50D8C22C36669005E40F1 /* WAGSingletonsObject.h */,
+				1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */,
+			);
+			path = Singletons;
 			sourceTree = "<group>";
 		};
 		1EC888E7217EC7BF00651F51 /* tableHeader */ = {
@@ -638,6 +651,7 @@
 				1E5F5DD82179DEE40019A4A8 /* WAGShowMessageViewController.m in Sources */,
 				1E5F5DE8217D68DA0019A4A8 /* NSString+PDRegex.m in Sources */,
 				1E83ABDE22BA18900033AB28 /* UILabel+Parameter.m in Sources */,
+				1EB50D8E22C36669005E40F1 /* WAGSingletonsObject.m in Sources */,
 				1E5F5DF2217D7AC30019A4A8 /* WAGPhotoViewController.m in Sources */,
 				1E3E9F3D22ADF7CE00312B7E /* WAGImageViewController.m in Sources */,
 				1E50BFBB21830E49005F26E5 /* UIImage+DYExtenstion.m in Sources */,

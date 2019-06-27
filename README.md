@@ -1,10 +1,7 @@
-# -
+# -工具组件-
 
-<<<<<<< HEAD
-# 为啥已女神为名称呢?
-=======
-<!--# 为啥已女神为名称呢？-->
->>>>>>> 53a550d2484efd558019e97017d0b739b99c45e9
+<!--# 为啥已女神为名称呢?-->
+
 <!--## 主要就是我的女神太美丽、太漂亮、太吸引人 以至于我的脑海里只剩下我的女神 -->
 -------------
 
@@ -44,6 +41,11 @@ textField.wag_placeHolder(@"请输入......")
 .alignment(NSTextAlignmentCenter);
 }];
 ```
+
+
+**object-c 的规范问题**
+*这个算是oc的GitHub官网讲解，但感觉把它作为编码的基本规范更好点*
+[objective-c-style-guide](https://github.com/nytimes/objective-c-style-guide)
 
 
 # 个人简书主页
