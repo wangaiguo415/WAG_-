@@ -48,6 +48,13 @@ textField.wag_placeHolder(@"请输入......")
 
 [objective-c-style-guide](https://github.com/nytimes/objective-c-style-guide)
 
+*7 UIView中frame属性内部的实现*  
+
+[http://www.cocoachina.com/articles/27119]
+
+*8 深入浅出iOS编译*  
+[http://www.cocoachina.com/articles/27120#header]
+
 
 # 个人简书主页
 [简书主页][https://www.jianshu.com/u/dd4e2568aa80]
