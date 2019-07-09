@@ -31,7 +31,6 @@
     NSObject *wag2 = [NSObject init];
     NSLog(@"%p --- %p", wag1, wag2);
 
-    UIStackView
 }
 
 - (void)lable{

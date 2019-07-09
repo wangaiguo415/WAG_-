@@ -46,6 +46,7 @@
 		1EA011252182F1D400975E2B /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F5DCF2179CE950019A4A8 /* HudUtils.m */; };
 		1EA8ACC221D375E80093CED3 /* WAGDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */; };
 		1EB50D8E22C36669005E40F1 /* WAGSingletonsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */; };
+		1EBADBB822D480D600207B40 /* WAGGetLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBADBB722D480D600207B40 /* WAGGetLaunchImage.m */; };
 		1EC888EA217ECCDD00651F51 /* WAGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */; };
 		1EC888ED217ED68700651F51 /* WAGTableHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC888EC217ED68700651F51 /* WAGTableHeaderController.m */; };
 		1ECC647D217EFB0C00867BCF /* WAGTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC6479217EFB0B00867BCF /* WAGTableViewAdapter.m */; };
@@ -137,6 +138,8 @@
 		1EA8ACC121D375E80093CED3 /* WAGDesignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGDesignViewController.m; sourceTree = "<group>"; };
 		1EB50D8C22C36669005E40F1 /* WAGSingletonsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGSingletonsObject.h; sourceTree = "<group>"; };
 		1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGSingletonsObject.m; sourceTree = "<group>"; };
+		1EBADBB622D480D600207B40 /* WAGGetLaunchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGGetLaunchImage.h; sourceTree = "<group>"; };
+		1EBADBB722D480D600207B40 /* WAGGetLaunchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGGetLaunchImage.m; sourceTree = "<group>"; };
 		1EC888E8217ECCDD00651F51 /* WAGTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGTableViewController.h; sourceTree = "<group>"; };
 		1EC888E9217ECCDD00651F51 /* WAGTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGTableViewController.m; sourceTree = "<group>"; };
 		1EC888EB217ED68700651F51 /* WAGTableHeaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGTableHeaderController.h; sourceTree = "<group>"; };
@@ -294,6 +297,7 @@
 		1E5F5DBA2179AECF0019A4A8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1EBADBB522D480AB00207B40 /* 获取启动图片 */,
 				1EB50D8B22C36630005E40F1 /* Singletons */,
 				1EF23311229792AA007380EA /* 算法 */,
 				1E5F5DEE217D6A100019A4A8 /* CWLSynthesizeSingleton.h */,
@@ -424,6 +428,15 @@
 				1EB50D8D22C36669005E40F1 /* WAGSingletonsObject.m */,
 			);
 			path = Singletons;
+			sourceTree = "<group>";
+		};
+		1EBADBB522D480AB00207B40 /* 获取启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				1EBADBB622D480D600207B40 /* WAGGetLaunchImage.h */,
+				1EBADBB722D480D600207B40 /* WAGGetLaunchImage.m */,
+			);
+			path = "获取启动图片";
 			sourceTree = "<group>";
 		};
 		1EC888E7217EC7BF00651F51 /* tableHeader */ = {
@@ -644,6 +657,7 @@
 				1E015117217EF569009EB28F /* UIImage+ImageEffects.m in Sources */,
 				1E5F5DF8217D7B4A0019A4A8 /* PXImagePickerHandler.m in Sources */,
 				1E50BFC721830F7C005F26E5 /* RXRandom.m in Sources */,
+				1EBADBB822D480D600207B40 /* WAGGetLaunchImage.m in Sources */,
 				1E5F5DE5217D68DA0019A4A8 /* NSDate+Format.m in Sources */,
 				1ECC647D217EFB0C00867BCF /* WAGTableViewAdapter.m in Sources */,
 				1E5F5DED217D69D10019A4A8 /* YCMApplication.m in Sources */,
