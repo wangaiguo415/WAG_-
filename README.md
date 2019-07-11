@@ -43,11 +43,11 @@ textField.wag_placeHolder(@"请输入......")
 ```
 
 
-**object-c 的规范问题**
-*这个算是oc的GitHub官网讲解，但感觉把它作为编码的基本规范更好点*  
+**object-c 的规范问题** 
 *6 这个算是oc的GitHub官网讲解，但感觉把它作为编码的基本规范更好点*  
 
-[objective-c-style-guide](https://github.com/nytimes/objective-c-style-guide)
+[objective-c-style-guide](https://github.com/nytimes/objective-c-style-guide)  
+[更详细的一些技巧及规范](http://www.cocoachina.com/articles/27054)
 
 *7 UIView中frame属性内部的实现*  
 
@@ -55,6 +55,12 @@ textField.wag_placeHolder(@"请输入......")
 
 *8 深入浅出iOS编译*  
 [http://www.cocoachina.com/articles/27120#header]
+
+*9 objc源码解析-ObjectiveC对象结构*  
+[http://www.cocoachina.com/articles/27136]  
+
+*10 Mac端Flutter的环境配置*  
+[https://juejin.im/post/5d0508d56fb9a07ec373eb9e#heading-8]
 
 
 # 个人简书主页
